@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(100, 105, 105);
+}
+
+.titles{
+    color:beige;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+    text-align: center;
+    
+}
+
+h2{
+    color: beige;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px;
+}
+
+.Data{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px;  
+}
