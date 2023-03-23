@@ -1,26 +1,61 @@
 body{
-    background-color: rgb(100, 105, 105);
+    background-color: rgb(64, 66, 66);
+    width: 60%;
+    height: 0;
+}
+/* rgb(100, 105, 105)*/
+.fondo{
+    width: 165%;
+    height: 20px;
+    background: rebeccapurple;
 }
 
 .titles{
     color:beige;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:25px;
-    text-align: center;
-    
+    position: relative;
+    left: 270px;
 }
 
 h2{
     color: beige;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 15px;
+    position: relative;
+    left: 150px;
+    top: 50px;
 }
 
 .Data{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 15px;  
+    margin: 15px;
+    position:relative;
+    left: 200px;  
+    top: 50px;
 }
 
-.bar{
-    width: auto;
+#bar{
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    transition: 0.5s;
+    object-fit: cover;
+    position: relative;
+    left: 700px;
+    bottom: 300px;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+#whatsapp{
+    width: 50px;
+    height: 50px;
+    position:fixed;
+    bottom: 20px;
+    left: 90%;
 }
