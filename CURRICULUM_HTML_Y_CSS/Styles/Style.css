@@ -3,8 +3,8 @@ body{
     width: 60%;
     height: 0;
 }
-/* rgb(100, 105, 105)*/
-.fondo{
+
+.bottom{
     width: 165%;
     height: 20px;
     background: rebeccapurple;
