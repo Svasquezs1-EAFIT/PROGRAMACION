@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: black;
+}
+/*----------------------------------------------------------------------------------------*/
+body{
+    width: 900px;
+    height: 900px;
+    background-color: blue;
+    margin: auto;
+}
+/*----------------------------------------------------------------------------------------*/
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+/*----------------------------------------------------------------------------------------*/
+header{
+    width: 900px;
+    height: 300px;
+    background-color:darkgreen;
+    display: flex;
+}
+/*----------------------------------------------------------------------------------------*/
+
+main{
+    width: 900px;
+    height: 500px;
+    display: flex;
+}
+
+section#Logo{
+    width: 300px;
+    height: 150px;
+    float: left;
+    background-color: darkred;
+}
+
+.buscar{
+    width: 300px;
+    height: 150px;
+    float: left;
+    background-color:yellow;
+}
+section#baner{
+    width: 600px;
+    height: 300px;
+    float: left;
+    background-color:violet;
+}
+/*----------------------------------------------------------------------------------------*/
+
+#na{
+    width: 900px;
+    height: 50px;
+    background-color: rgb(114, 255, 114);
+    display: flex;
+}
+/*----------------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------------------*/
+
+aside#parte1{
+    width: 250px;
+    height: 500px;
+    float: left;
+    background-color:sandybrown;
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+article#articulo{
+    width: 500px;
+    height: 500px;
+    float: left;
+    background-color:darkgray;
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+aside#parte2{
+    width: 150px;
+    height: 500px;
+    float: left;
+    background-color:royalblue;
+
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+footer{
+    width: 900px;
+    height: 50px;
+    background-color:red;
+}
