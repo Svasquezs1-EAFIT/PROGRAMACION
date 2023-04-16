@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---------------------------------------------------*/
+
+body{
+    background-color: blue;
+}
+/*---------------------------------------------------*/
+
+.parte_1_titulo{
+    width: 200px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    font-size: 30px;
+    margin-left: 40px;
+    justify-content: center;
+}
+/*---------------------------------------------------*/
+
+.parte_11_img{
+    display: flex;
+}
+
+.parte_11_img{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
